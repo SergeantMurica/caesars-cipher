@@ -2,8 +2,11 @@ body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to right, #1A2835, #2C3E50);
     color: #AAB8C2;
-    margin: 50px auto;
-    padding: 20px;
+    margin: auto;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 h2 {
@@ -16,16 +19,18 @@ h3 {
     border-bottom: 2px solid #2C3E50;
     color: #EFF2F7;
     margin-top: 20px;
+    text-align: left;
 }
 
 label {
     display: block;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 auto;
     font-weight: bold;
+    text-align: left;
 }
 
 #output {
-    margin: 10px 20px auto;
+    margin: 40px auto;
     padding: 10px;
     width: 85%;
     border: 1px solid #2C3E50;
